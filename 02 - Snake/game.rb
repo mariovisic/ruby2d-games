@@ -3,7 +3,6 @@ require 'ruby2d'
 set background: 'navy'
 set fps_cap: 20
 
-INITIAL_SPEED = 10
 SQUARE_SIZE = 20
 GRID_WIDTH = Window.width / SQUARE_SIZE
 GRID_HEIGHT = Window.height / SQUARE_SIZE
@@ -19,7 +18,7 @@ class Snake
 
   def draw
     @positions.each do |position|
-      Square.new(x: position[0] * SQUARE_SIZE, y: position[1] * SQUARE_SIZE, size: SQUARE_SIZE, color: 'white')
+      Square.new(x: position[0] * SQUARE_SIZE, y: position[1] * SQUARE_SIZE, size: SQUARE_SIZE - 1, color: 'white')
     end
   end
 
