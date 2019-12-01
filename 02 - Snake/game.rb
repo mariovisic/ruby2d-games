@@ -18,7 +18,7 @@ class Snake
 
   def draw
     @positions.each do |position|
-      Square.new(x: position[0] * SQUARE_SIZE, y: position[1] * SQUARE_SIZE, size: SQUARE_SIZE - 1, color: 'white')
+      Image.new('snake_body.png', x: position[0] * SQUARE_SIZE, y: position[1] * SQUARE_SIZE, size: SQUARE_SIZE - 1)
     end
   end
 
