@@ -6,7 +6,7 @@ Hit the ball with your paddle and try and get it past your opponent.
 
 The first version of this game has the basic game mechanics but is missing scoring and has very simple logic for the trajectory of the ball.
 
-![game screenshot](screenshot_v1.png)
+![game v1 screenshot](screenshot_v1.png)
 
 ## Version 2
 
@@ -16,4 +16,13 @@ The major changes in version two are the added music and sound effects as well a
 
 The game looks very similar, though it now has a dotted line drawn down the centre.
 
-![game screenshot](screenshot_v2.png)
+![game v2 screenshot](screenshot_v2.png)
+
+
+## Version 3
+
+We now make the AI smarter by having it follow the trajectory of the ball, rather than where the ball is currently at. To achieve this we need to calculate where the ball is going and figure out if it's going to bounce off the wall.
+
+Once the ball is hit by either the player or the opponent, the opponent will think for a moment and then start following where it calculates the ball will end up.
+
+![game v3 screenshot](screenshot_v3.png)
