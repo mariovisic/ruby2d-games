@@ -26,3 +26,8 @@ We now make the AI smarter by having it follow the trajectory of the ball, rathe
 Once the ball is hit by either the player or the opponent, the opponent will think for a moment and then start following where it calculates the ball will end up.
 
 ![game v3 screenshot](screenshot_v3.png)
+
+
+## Version 4
+
+Add support to control the player via a gamepad as well as the keyboard
