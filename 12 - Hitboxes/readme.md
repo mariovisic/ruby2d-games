@@ -1,6 +1,6 @@
 # Hitboxes
 
-An example of uses hitboxes for collision detection in ruby2d
+An example of using hitboxes for collision detection in ruby2d
 
 
 ![screenshot](screenshot.png)
